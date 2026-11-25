@@ -28,4 +28,4 @@ Send them the [source with setup instructions](https://github.com/fusefoundation
 
 Sharing a link or displaying results does **not** earn an operator share. On an active, registered interface, the share is **40% of the protocol fee** on eligible daily contributions attributed to that interface, not 40% of deposits. A top-up alone does not earn it, and earnings are not guaranteed. See [operator earnings](../earnings.md) and [how to register your website](../register.md).
 
-For viewers who want to learn how the official app works, share [How to use FUSE](how-to-use-fuse.md). For a partnership question, contact [FUSE partnerships](mailto:partners@fuseprotocol.org).
+For viewers who want to learn how the official app works, share [How to use FUSE](../how-to-use-fuse.md). For a partnership question, contact [FUSE partnerships](mailto:partners@fuseprotocol.org).

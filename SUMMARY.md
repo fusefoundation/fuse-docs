@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Build on FUSE](README.md)
+* [How to use FUSE](how-to-use-fuse.md)
 
 ## Explore FUSE
 
 * [About FUSE](about.md)
 * [FUSE for creators](explore-fuse/for-creators.md)
-* [How to use FUSE](explore-fuse/how-to-use-fuse.md)
 * [Costs and fees](costs.md)
 * [FAQ](faq.md)
 
