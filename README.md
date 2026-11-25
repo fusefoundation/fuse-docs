@@ -11,7 +11,7 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. Use this gu
 
 [About FUSE](about.md) · [Costs and fees](costs.md) · [FAQ](faq.md)
 
-**Are you a creator or publisher?** [How to earn with FUSE](how-to-earn-with-fuse.md) before opening the technical guides.
+**For creators and publishers:** [How to earn with FUSE](how-to-earn-with-fuse.md).
 
 ## Choose where to start
 
