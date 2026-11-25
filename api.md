@@ -1,6 +1,6 @@
 # Read-only API
 
-FUSE Root on Internet Computer mainnet: `ouuix-fyaaa-aaaai-aygia-cai`. The following calls are public queries. They do not sign transfers, ask for a key, or require an account.
+FUSE Root on Internet Computer mainnet: `ouuix-fyaaa-aaaai-aygia-cai`. See [Mainnet addresses](mainnet.md) for the related ledger and gateway. The following calls are public queries. They do not sign transfers, ask for a key, or require an account.
 
 | Query | What it returns |
 | --- | --- |
