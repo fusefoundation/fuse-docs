@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: FUSE FOUNDATION Docs
+  structure:
+    - type: space
+      key: fuse-interface-docs
+      title: FUSE Interface Guide
+      path: interfaces
+      default: true
+      content:
+        directory: ./
