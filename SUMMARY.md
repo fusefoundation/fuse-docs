@@ -2,11 +2,11 @@
 
 * [Build on FUSE](README.md)
 * [How to use FUSE](how-to-use-fuse.md)
+* [How to earn with FUSE](how-to-earn-with-fuse.md)
 
 ## Explore FUSE
 
 * [About FUSE](about.md)
-* [FUSE for creators](explore-fuse/for-creators.md)
 * [Costs and fees](costs.md)
 * [FAQ](faq.md)
 
