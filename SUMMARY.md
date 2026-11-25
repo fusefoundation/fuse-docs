@@ -6,7 +6,7 @@
 
 * [About FUSE](about.md)
 * [Costs and fees](costs.md)
-* [Frequently asked questions](faq.md)
+* [FAQ](faq.md)
 
 ## Build an interface
 
