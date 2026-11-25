@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Build on FUSE](README.md)
+* [Home](README.md)
+* [Docs](docs.md)
 
 ## Explore FUSE
 
