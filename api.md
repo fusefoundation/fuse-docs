@@ -34,3 +34,4 @@ These signatures and fields were checked against the release Candid interface. T
 
 See [Integration kit](integration-kit.md) for the operator API, JavaScript bindings, examples and Codex skill.
 
+For interface methods, request shapes, and operator operations, see the [FUSE API reference](operator-api.md).

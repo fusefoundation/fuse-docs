@@ -14,7 +14,7 @@ No. A read-only site can call FUSE Root from its own frontend. To register for a
 
 ## Who signs the participant transfer?
 
-The participant signs with their wallet. Your frontend presents the terms before asking for confirmation. The [OISY example](https://github.com/burzhuy3/fuse-interface-kit/blob/main/docs/API.md#deposits-with-oisy) shows how to connect, prepare a deposit, and check it afterward.
+The participant signs with their wallet. Your frontend presents the terms before asking for confirmation. The [OISY integration guide](oisy.md) shows how to connect, prepare a deposit, and check it afterward.
 
 ## Does a link to the FUSE app earn my interface commission?
 

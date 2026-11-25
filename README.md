@@ -15,7 +15,7 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. Use this gu
 <tbody>
 <tr><td><i class="fa-bolt"></i></td><td><strong>Read public data</strong></td><td>Show the latest published round. No wallet, account, or bond required.</td><td><a href="quickstart.md">Read public data</a></td></tr>
 <tr><td><i class="fa-globe"></i></td><td><strong>Register your website</strong></td><td>Verify your HTTPS domain, fund the bond, and activate your interface.</td><td><a href="register.md">Register your website</a></td></tr>
-<tr><td><i class="fa-code"></i></td><td><strong>Build the integration</strong></td><td>Get the Candid contract, JavaScript examples, and Codex skill.</td><td><a href="integration-kit.md">Build the integration</a></td></tr>
+<tr><td><i class="fa-code"></i></td><td><strong>Build the integration</strong></td><td>Read the full API reference and follow a wallet integration from preparation to recovery.</td><td><a href="integration-kit.md">Build the integration</a></td></tr>
 <tr><td><i class="fa-circle-check"></i></td><td><strong>Check before launch</strong></td><td>Test attribution and recovery on a test deployment before enabling deposits.</td><td><a href="launch-checklist.md">Check before launch</a></td></tr>
 </tbody>
 </table>
@@ -27,5 +27,11 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. Use this gu
 | Presents public results and asks the participant to confirm wallet actions. | Records participation, attributes deposits, and publishes round results. | Records ckUSDT transfers. Use its current fee and let FUSE confirm the transfer before showing an accounting credit. |
 
 **Start read-only.** Open the [Quick start](quickstart.md) and compare one published round with the official FUSE app. For copyable production identifiers, see [Mainnet addresses](mainnet.md).
+
+## Read the full integration here
+
+[Register and verify your website](register.md) · [Connect OISY and handle deposits](oisy.md) · [FUSE API reference](operator-api.md) · [Glossary](glossary.md)
+
+GitHub is optional for reading this guide. Use the [downloadable kit](integration-kit.md#download-and-run-the-kit) when you need the complete example files, tests, or Codex skill.
 
 [Official FUSE website](https://fuseprotocol.org/) · [Developer kit on GitHub](https://github.com/burzhuy3/fuse-interface-kit) · [Community and questions](https://t.me/fuseprotocol_en)

@@ -12,6 +12,7 @@
 
 * [Quick start](quickstart.md)
 * [Register your website](register.md)
+* [Connect OISY and handle deposits](oisy.md)
 * [Operator earnings](earnings.md)
 * [Integration kit and Codex skill](integration-kit.md)
 * [Launch checklist](launch-checklist.md)
@@ -20,4 +21,6 @@
 
 * [Mainnet addresses](mainnet.md)
 * [Read-only API](api.md)
+* [FUSE API reference](operator-api.md)
+* [FUSE integration glossary](glossary.md)
 * [Troubleshooting](troubleshooting.md)

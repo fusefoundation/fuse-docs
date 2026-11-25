@@ -14,3 +14,4 @@ description: "Diagnose FUSE domain verification, activation, attribution, missin
 
 Ask in the [FUSE community](https://t.me/fuseprotocol_en) for general help. For a site-specific case, contact [partners@fuseprotocol.org](mailto:partners@fuseprotocol.org). Share the domain, interface ID if available, and exact error. Never share a seed phrase, private key, wallet session, or sign-in code.
 
+For examples of what to show after a wallet timeout or a lost reply, see [Connect OISY and handle deposits](oisy.md). For an explanation of ledger confirmation versus FUSE credit, see the [glossary](glossary.md).
