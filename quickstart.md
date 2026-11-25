@@ -1,3 +1,7 @@
+---
+description: Read a published FUSE round from an independent site without connecting a wallet or registering a domain.
+---
+
 # Quick start
 
 Your first version can be a single page that shows a round without asking anyone to sign in.

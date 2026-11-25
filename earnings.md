@@ -1,3 +1,7 @@
+---
+description: See how the FUSE interface operator share is calculated, which contributions count, and how to check a payout.
+---
+
 # Operator earnings
 
 An active interface receives **40% of the protocol fee** on eligible real daily contributions attributed to it. It does not receive 40% of all deposits or of the pooled funds.

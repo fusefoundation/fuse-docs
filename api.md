@@ -1,3 +1,7 @@
+---
+description: Read public FUSE round summaries and statistics using production canister queries, with Candid examples.
+---
+
 # Read-only API
 
 FUSE Root on Internet Computer mainnet: `ouuix-fyaaa-aaaai-aygia-cai`. See [Mainnet addresses](mainnet.md) for the related ledger and gateway. The following calls are public queries. They do not sign transfers, ask for a key, or require an account.

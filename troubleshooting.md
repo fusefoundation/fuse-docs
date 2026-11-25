@@ -1,3 +1,7 @@
+---
+description: Diagnose FUSE domain verification, activation, attribution, missing results, and interrupted wallet confirmations.
+---
+
 # Troubleshooting
 
 | Symptom | First check |

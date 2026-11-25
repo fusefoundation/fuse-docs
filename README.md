@@ -1,10 +1,14 @@
 ---
-description: Build and operate an independent interface for FUSE Protocol on the Internet Computer.
+description: Explore FUSE Protocol and build an independent interface on the Internet Computer. Find costs and fees, setup guides, canister IDs, and the developer kit.
 ---
 
 # Build on FUSE
 
-Create your own website for FUSE on the Internet Computer. Start by showing public round results, then register your domain if you want to attribute participant contributions to your interface.
+FUSE is a charity-focused lottery protocol on the Internet Computer. Use this guide to understand how it works, see what it costs to register a website, or build an independent interface. You can start by showing public round results without connecting a wallet.
+
+[About FUSE](about.md) · [Costs and fees](costs.md) · [Frequently asked questions](faq.md)
+
+## Choose where to start
 
 <table data-view="cards">
 <thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>

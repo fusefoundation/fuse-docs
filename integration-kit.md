@@ -1,3 +1,7 @@
+---
+description: Find the FUSE Candid contract, JavaScript bindings, OISY examples, and the Codex skill for building an independent interface.
+---
+
 # Integration kit
 
 Start by reading public data with the [read-only API](api.md). An active registration is required for testing your own operators' records, not for reading public round results.
