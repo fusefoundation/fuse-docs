@@ -16,8 +16,12 @@ Latest FUSE round
 
 ## Add it to your website
 
-Paste this snippet into a custom HTML block or your website template. Put it where you want the card to appear.
+Choose a theme, then paste its code into a custom HTML block or your website template. The two versions show the same data.
 
+[Preview dark](https://rounds.fuseprotocol.org/widget) · [Preview light](https://rounds.fuseprotocol.org/widget-light) · [Compare both and copy code](https://rounds.fuseprotocol.org/embed)
+
+{% tabs %}
+{% tab title="Dark" %}
 ```html
 <iframe src="https://rounds.fuseprotocol.org/widget"
   title="Latest FUSE round" width="360" height="195"
@@ -25,6 +29,18 @@ Paste this snippet into a custom HTML block or your website template. Put it whe
   referrerpolicy="no-referrer"
   sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 ```
+{% endtab %}
+
+{% tab title="Light" %}
+```html
+<iframe src="https://rounds.fuseprotocol.org/widget-light"
+  title="Latest FUSE round" width="360" height="195"
+  style="border:0;max-width:100%" loading="lazy"
+  referrerpolicy="no-referrer"
+  sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+```
+{% endtab %}
+{% endtabs %}
 
 On the published page, check that a round number appears and that **Visit FUSE** opens the official website in a new tab. If your site does not allow iframes, link to the [live preview](https://rounds.fuseprotocol.org/embed) instead. If your site restricts which origins it can embed, allow `https://rounds.fuseprotocol.org` in its frame policy.
 
