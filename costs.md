@@ -1,5 +1,5 @@
 ---
-description: Understand FUSE interface costs: free public reads, the refundable registration bond, ckUSDT ledger fees, and operator earnings.
+description: "Understand FUSE interface costs: free public reads, the refundable registration bond, ckUSDT ledger fees, and operator earnings."
 ---
 
 # Costs and fees

@@ -1,5 +1,5 @@
 ---
-description: Answers to common FUSE integration questions about wallets, website registration, the bond, deposit attribution, and missing results.
+description: "Answers to common FUSE integration questions about wallets, website registration, the bond, deposit attribution, and missing results."
 ---
 
 # Frequently asked questions

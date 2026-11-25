@@ -1,5 +1,5 @@
 ---
-description: Learn what FUSE Protocol does on the Internet Computer, how its charitable reserve works, and what independent interfaces can build.
+description: "Learn what FUSE Protocol does on the Internet Computer, how its charitable reserve works, and what independent interfaces can build."
 ---
 
 # About FUSE

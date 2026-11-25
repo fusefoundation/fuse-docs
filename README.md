@@ -1,5 +1,5 @@
 ---
-description: Explore FUSE Protocol and build an independent interface on the Internet Computer. Find costs and fees, setup guides, canister IDs, and the developer kit.
+description: "Explore FUSE Protocol and build an independent interface on the Internet Computer. Find costs and fees, setup guides, canister IDs, and the developer kit."
 ---
 
 # Build on FUSE

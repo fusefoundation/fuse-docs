@@ -1,5 +1,5 @@
 ---
-description: See how the FUSE interface operator share is calculated, which contributions count, and how to check a payout.
+description: "See how the FUSE interface operator share is calculated, which contributions count, and how to check a payout."
 ---
 
 # Operator earnings

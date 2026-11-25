@@ -1,5 +1,5 @@
 ---
-description: Diagnose FUSE domain verification, activation, attribution, missing results, and interrupted wallet confirmations.
+description: "Diagnose FUSE domain verification, activation, attribution, missing results, and interrupted wallet confirmations."
 ---
 
 # Troubleshooting

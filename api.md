@@ -1,5 +1,5 @@
 ---
-description: Read public FUSE round summaries and statistics using production canister queries, with Candid examples.
+description: "Read public FUSE round summaries and statistics using production canister queries, with Candid examples."
 ---
 
 # Read-only API

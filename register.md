@@ -1,5 +1,5 @@
 ---
-description: Register an HTTPS website with FUSE, confirm the ckUSDT bond, verify your domain, and activate your interface.
+description: "Register an HTTPS website with FUSE, confirm the ckUSDT bond, verify your domain, and activate your interface."
 ---
 
 # Register your website

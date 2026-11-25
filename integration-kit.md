@@ -1,5 +1,5 @@
 ---
-description: Find the FUSE Candid contract, JavaScript bindings, OISY examples, and the Codex skill for building an independent interface.
+description: "Find the FUSE Candid contract, JavaScript bindings, OISY examples, and the Codex skill for building an independent interface."
 ---
 
 # Integration kit

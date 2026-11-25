@@ -1,5 +1,5 @@
 ---
-description: Read a published FUSE round from an independent site without connecting a wallet or registering a domain.
+description: "Read a published FUSE round from an independent site without connecting a wallet or registering a domain."
 ---
 
 # Quick start
