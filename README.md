@@ -11,6 +11,8 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. Use this gu
 
 [About FUSE](about.md) · [Costs and fees](costs.md) · [FAQ](faq.md)
 
+**Are you a creator or publisher?** [Start with FUSE for creators](explore-fuse/for-creators.md) before opening the technical guides.
+
 ## Choose where to start
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-bolt">:bolt:</i></td><td><strong>Read public data</strong></td><td>Show the latest published round. No wallet, account, or bond required.</td><td><a href="quickstart.md">quickstart.md</a></td></tr><tr><td><i class="fa-globe">:globe:</i></td><td><strong>Register your website</strong></td><td>Verify your HTTPS domain, fund the bond, and activate your interface.</td><td><a href="register.md">register.md</a></td></tr><tr><td><i class="fa-code">:code:</i></td><td><strong>Build the integration</strong></td><td>Read the full API reference and follow a wallet integration from preparation to recovery.</td><td><a href="integration-kit.md">integration-kit.md</a></td></tr><tr><td><i class="fa-circle-check">:circle-check:</i></td><td><strong>Check before launch</strong></td><td>Test attribution and recovery on a test deployment before enabling deposits.</td><td><a href="launch-checklist.md">launch-checklist.md</a></td></tr></tbody></table>

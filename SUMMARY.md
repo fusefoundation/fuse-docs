@@ -5,6 +5,7 @@
 ## Explore FUSE
 
 * [About FUSE](about.md)
+* [FUSE for creators](explore-fuse/for-creators.md)
 * [How to use FUSE](explore-fuse/how-to-use-fuse.md)
 * [Costs and fees](costs.md)
 * [FAQ](faq.md)
