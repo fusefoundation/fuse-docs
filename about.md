@@ -1,5 +1,7 @@
 ---
-description: "Learn what FUSE Protocol does on the Internet Computer, how its charitable reserve works, and what independent interfaces can build."
+description: >-
+  Learn what FUSE Protocol does on the Internet Computer, how its charitable
+  reserve works, and what independent interfaces can build.
 ---
 
 # About FUSE
@@ -8,9 +10,9 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. It tracks p
 
 ## What you can verify
 
-- **Rounds:** The public app shows completed rounds and their results. A forecast for the next round is not a final result.
-- **Charity:** A share of the protocol fee goes to a separate charity reserve. The public app shows the reserve, published goals, and confirmed transfers when available. Money in the reserve is not the same as money already sent to recipients.
-- **Integration:** The [FUSE Interface Kit](https://github.com/burzhuy3/fuse-interface-kit) publishes the Candid contract, JavaScript examples, and test cases for independent developers.
+* **Rounds:** The public app shows completed rounds and their results. A forecast for the next round is not a final result.
+* **Charity:** A share of the protocol fee goes to a separate charity reserve. The public app shows the reserve, published goals, and confirmed transfers when available. Money in the reserve is not the same as money already sent to recipients.
+* **Integration:** The [FUSE Interface Kit](https://github.com/fusefoundation/fuse-interface-kit) publishes the Candid contract, JavaScript examples, and test cases for independent developers.
 
 ## One protocol, different websites
 

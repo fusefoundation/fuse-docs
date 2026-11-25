@@ -29,4 +29,4 @@ FUSE is a charity-focused lottery protocol on the Internet Computer. Use this gu
 
 GitHub is optional for reading this guide. Use the [downloadable kit](integration-kit.md#download-and-run-the-kit) when you need the complete example files, tests, or Codex skill.
 
-[Official FUSE website](https://fuseprotocol.org/) · [Developer kit on GitHub](https://github.com/burzhuy3/fuse-interface-kit) · [Community and questions](https://t.me/fuseprotocol_en)
+[Official FUSE website](https://fuseprotocol.org/) · [Developer kit on GitHub](https://github.com/fusefoundation/fuse-interface-kit) · [Community and questions](https://t.me/fuseprotocol_en)

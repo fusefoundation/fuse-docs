@@ -1,12 +1,14 @@
 ---
-description: "Learn how to connect OISY, preview and confirm a ckUSDT deposit, then recover the original operation if the wallet response is interrupted."
+description: >-
+  Learn how to connect OISY, preview and confirm a ckUSDT deposit, then recover
+  the original operation if the wallet response is interrupted.
 ---
 
 # Connect OISY and handle deposits
 
 Start after [registering your website](register.md) on the intended test network. Use the same wallet account throughout an operation. **Prepare**, **confirm**, and **check** are separate user actions.
 
-The [browser example](https://github.com/burzhuy3/fuse-interface-kit/blob/3e2f04ab5e57bd6e5433adf702a6619e67dfda68/examples/oisy-deposit.mjs) uses `@icp-sdk/core` and `@icp-sdk/signer`. Include it in a build that resolves npm imports. Offer an account selection when OISY returns more than one primary account.
+The [browser example](https://github.com/fusefoundation/fuse-interface-kit/blob/v1.0.0/examples/oisy-deposit.mjs) uses `@icp-sdk/core` and `@icp-sdk/signer`. Include it in a build that resolves npm imports. Offer an account selection when OISY returns more than one primary account.
 
 Serve the page over HTTPS and preserve the `postMessage` channel to the signer popup. If the page sets `Cross-Origin-Opener-Policy`, use `same-origin-allow-popups` for that page. If it sets CSP, permit `https://icp-api.io` in `connect-src`. Call `connectOisy()` directly from a click so the browser permits the popup.
 
@@ -39,13 +41,13 @@ console.log(restored.state);
 3. If the ledger returns `Ok(block)` or `Err.Duplicate.duplicate_of`, pass that block to `confirm_incoming_block(revision, block)`. Root verifies the operation against the ledger.
 4. If the popup closes, transport fails, or confirmation is delayed, keep the same revision. Read `my_incoming_choice(revision)`, search with `scan_incoming_choice(revision, 16)`, or confirm a known block again. On another device, call `recoverDeposit(session, revision)` with the verified revision and the same principal.
 
-| Example state | Meaning |
-| --- | --- |
-| `credited` | `Ledger.credited = true`: the deposit is recorded in FUSE accounting. |
-| `confirmed` | Root confirmed the transfer; accounting is pending. Recent Root versions can expose `confirmed_pending_micro_units`. |
-| `checking` | Credit is not established. If `Ledger.unattributed = true`, investigate the same operation rather than starting another. |
+| Example state           | Meaning                                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `credited`              | `Ledger.credited = true`: the deposit is recorded in FUSE accounting.                                                    |
+| `confirmed`             | Root confirmed the transfer; accounting is pending. Recent Root versions can expose `confirmed_pending_micro_units`.     |
+| `checking`              | Credit is not established. If `Ledger.unattributed = true`, investigate the same operation rather than starting another. |
 | `awaiting-confirmation` | A saved request exists but this site has not started sending it. Show its conditions and wait for explicit confirmation. |
-| `not-sent` | Root established the request did not produce a transfer. A new deposit requires a fresh user action. |
+| `not-sent`              | Root established the request did not produce a transfer. A new deposit requires a fresh user action.                     |
 
 The example stores a pointer in `localStorage`, without keys, delegations, or signed envelopes. Web Locks prevent duplicate clicks across tabs of the same origin. It records `checking` before submitting the ledger transfer and only checks the old operation if the response is lost. Keep the revision for support. Before using this in production, connect every state to your UI and test recovery with the same account in a test environment.
 
