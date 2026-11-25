@@ -14,6 +14,8 @@ In **Latest published round**, look for **Cycle**. In **Archive**, use the pagin
 
 ![Round Reader: latest published round, archive, and a copyable query](.gitbook/assets/creator-round-reader.jpg)
 
+Just want a small card with the latest result? [Embed the FUSE widget](build-an-interface/results-widget.md) without building or hosting the example.
+
 ## Run locally
 
 Install Node.js 22 or later, npm, Git, and Python 3. Open a terminal and run:

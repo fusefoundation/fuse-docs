@@ -13,6 +13,7 @@
 ## Build an interface
 
 * [Quick start](quickstart.md)
+* [Embed the FUSE widget](build-an-interface/results-widget.md)
 * [Register your website](register.md)
 * [Connect OISY and handle deposits](oisy.md)
 * [Operator earnings](earnings.md)

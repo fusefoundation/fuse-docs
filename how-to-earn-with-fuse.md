@@ -10,6 +10,8 @@ Want to cover FUSE on your channel or show results on your own website? You can 
 
 ![The Round Reader demo showing the latest result and an archive section](.gitbook/assets/creator-round-reader.jpg)
 
+Already have a website? [Embed the FUSE widget](build-an-interface/results-widget.md) to show the latest result with one HTML snippet. No custom development or FUSE registration is required if your site allows embeds.
+
 ## Pick what you want to do
 
 | What you want                                        | What it takes                                                                                                                                                                                                                                                                                                                            |
