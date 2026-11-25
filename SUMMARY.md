@@ -7,4 +7,3 @@
 * [Read-only API](api.md)
 * [Integration kit and Codex skill](integration-kit.md)
 * [Troubleshooting](troubleshooting.md)
-* [Быстрый старт на русском](ru-quickstart.md)

@@ -11,4 +11,4 @@ Start with public round data. You can evaluate the integration before registerin
 5. [Integration kit and Codex skill](integration-kit.md): get the bindings and examples.
 6. [Troubleshooting](troubleshooting.md): isolate registration or data issues.
 
-[Official FUSE website](https://fuseprotocol.org/) · [Community and questions](https://t.me/fuseprotocol_en) · [Быстрый старт на русском](ru-quickstart.md)
+[Official FUSE website](https://fuseprotocol.org/) · [Community and questions](https://t.me/fuseprotocol_en)
