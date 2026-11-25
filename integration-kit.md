@@ -20,7 +20,7 @@ The [FUSE Interface Kit](https://github.com/fusefoundation/fuse-interface-kit) i
 
 The [API reference](operator-api.md), [registration guide](register.md), and [OISY walkthrough](oisy.md) are available here without leaving GitBook. Download the release when you want the complete, runnable files.
 
-[Download the latest FUSE Interface Kit release](https://github.com/fusefoundation/fuse-interface-kit/releases/latest). Choose **Source code (zip)** under Assets. The release also links to the [live Round Reader](https://public-round-reader.sergeysolomatin.chatgpt.site/), a read-only browser example that does not require a wallet.
+[Download the latest FUSE Interface Kit release](https://github.com/fusefoundation/fuse-interface-kit/releases/latest). Choose **Source code (zip)** under Assets. To see the browser example before installing, open the [live Round Reader](https://rounds.fuseprotocol.org/), a read-only browser example that does not require a wallet.
 
 With Node.js 22 or later, run from the kit's root directory:
 

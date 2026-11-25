@@ -1,10 +1,24 @@
 ---
-description: "Configure your FUSE interface: sign in, claim an HTTPS domain, fund the ckUSDT bond, verify ownership, and activate the site."
+description: >-
+  Configure your FUSE interface: sign in, claim an HTTPS domain, fund the ckUSDT
+  bond, verify ownership, and activate the site.
 ---
 
 # Register your website
 
 You need an HTTPS website where you can publish a verification file, an Internet Identity account for managing the interface, and ckUSDT for the registration bond and fees. You can build a read-only interface without registering or funding a bond. For a pilot, ask FUSE for the test environment configuration; keep it separate from mainnet.
+
+## Registration at a glance
+
+**Sign in with Internet Identity → claim your hostname → fund the bond → verify the domain → activate the interface.**
+
+Use the [interface operator dashboard](https://int.fuseprotocol.org/site) for these steps, not the participant account. After activation, return to the same dashboard for **Interface ID** and **Memo**. The memo is a tag carried in a ckUSDT transfer so FUSE can attribute the top-up to the correct registered interface.
+
+### What happens during a top-up
+
+1. Your website prepares the top-up for the participant and the registered interface.
+2. The participant reviews and signs the transfer in their wallet. The ckUSDT ledger records it.
+3. FUSE checks the ledger transfer and credits the participant. A submitted transfer and a credited FUSE balance are separate states.
 
 ## 1. Sign in to the interface dashboard
 
@@ -45,13 +59,13 @@ Verify the domain in the dashboard after the bond is confirmed. The domain check
 
 After the bond and HTTPS checks are confirmed, activate the site and verify it is active.
 
-| Field | What to keep |
-| --- | --- |
-| `interface_id` | Exact ID, as a decimal string or `BigInt`. |
-| `memo` | Exact bytes shown in hex. Do not send the hex text as the memo. |
-| `canister` | FUSE Root for your selected network. |
-| `ledger` | The ledger for that same network. |
-| `network` | `ic` for mainnet. Use a separate test profile. |
+| Field          | What to keep                                                    |
+| -------------- | --------------------------------------------------------------- |
+| `interface_id` | Exact ID, as a decimal string or `BigInt`.                      |
+| `memo`         | Exact bytes shown in hex. Do not send the hex text as the memo. |
+| `canister`     | FUSE Root for your selected network.                            |
+| `ledger`       | The ledger for that same network.                               |
+| `network`      | `ic` for mainnet. Use a separate test profile.                  |
 
 These configuration values are public. A link to the [official participant account](https://app.fuseprotocol.org/account) can help users view funds and withdrawals, but deposits initiated in the official form are attributed to the default interface.
 
@@ -80,11 +94,10 @@ Internet Identity can give different principals on different origins. Unless a v
 
 Your interface earns **4% of eligible, attributed real daily contributions used in rounds**, not 4% of deposits. Unused prepaid funds remain on the participant balance. FUSE applies attribution in deposit order as prepaid funds are used.
 
-- **Withdraw operator earnings:** check the recipient, gross amount, fee, and net amount in the dashboard. If a withdrawal result is uncertain, check that same withdrawal.
-- **Recover the bond and keep the site active:** the dashboard shows progress toward the 100 ckUSDT threshold in confirmed original deposits attributed to the site. The bond is returned once to the original controller account, less the fee, when eligible.
-- **Close the site:** closure takes effect after seven days. Then you can request recovery of any bond still held. Existing earnings remain available. Remove the deposit form: after closure, transfers using the old memo are attributed to the default interface.
+* **Withdraw operator earnings:** check the recipient, gross amount, fee, and net amount in the dashboard. If a withdrawal result is uncertain, check that same withdrawal.
+* **Recover the bond and keep the site active:** the dashboard shows progress toward the 100 ckUSDT threshold in confirmed original deposits attributed to the site. The bond is returned once to the original controller account, less the fee, when eligible.
+* **Close the site:** closure takes effect after seven days. Then you can request recovery of any bond still held. Existing earnings remain available. Remove the deposit form: after closure, transfers using the old memo are attributed to the default interface.
 
 For help, email [partners@fuseprotocol.org](mailto:partners@fuseprotocol.org) with the domain, interface ID if available, error message, and the operation or block number if relevant. Never send keys, delegations, seed phrases, or login codes.
-
 
 [Costs and fees](costs.md) · [Launch checklist](launch-checklist.md) · [Troubleshooting](troubleshooting.md)
